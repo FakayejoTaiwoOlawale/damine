@@ -8,6 +8,7 @@ export default function ExitAnimation() {
 
   return (
     <div style={container}>
+      {/* this is like saying that the animation would not start initially */}
       <AnimatePresence initial={false}>
         {isVisible ? (
           <motion.div
