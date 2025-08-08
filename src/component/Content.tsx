@@ -1,15 +1,8 @@
 const Content=()=> {
     return (
         <>
-        <h1 className="text-3xl font-bold font-serif">The beauty of Latin Language</h1>
-            <article className="w-6xl"
-                style={{
-                    maxWidth: 500,
-                    padding: "150px 20px",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: 20,
-                }}
+        <h1 className="text-black text-3xl font-bold font-serif">The beauty of Latin Language</h1>
+            <article className="w-6xl px-28 py-5 space-y-5"
             >
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
