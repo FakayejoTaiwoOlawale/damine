@@ -1,6 +1,6 @@
 import { GrInProgress } from "react-icons/gr";
 import { Link } from "react-router-dom";
-import ArrowDown from "./subcomponent/Arrowdown";
+import ArrowDown from "./subcomponent/ArrowDown";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className="text-2xl font-bold italic">Damine</h1>
         <GrInProgress className="text-3xl animate-spin" />
       </div>
-      <div id="links" class>
+      <div id="links">
         <div className="flex space-x-0.5 items-center">
           <Link to="/journal">Journal</Link>
           <ArrowDown />

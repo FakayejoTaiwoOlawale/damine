@@ -1,1 +1,7 @@
-@import "tailwindcss"
+@import "tailwindcss";
+@font-face {
+      font-family: 'DigitalFont'; /* Choose a descriptive name */
+      src: url('../assets/fonts/DS-DIGI.TTF') format('TTF');
+      font-weight: normal;
+      font-style: normal;
+    }
